@@ -1,0 +1,80 @@
+{
+	"name": "Move Layers to Adjacent Place",
+	"description": "Move / Duplicate Layers to Adjacent Place (Top / Right / Bottom / Left).",
+	"author": "Seiji Miyazawa",
+	"authorEmail": "onthehead@gmail.com",
+	"version": "1.0",
+	"identifier": "com.onthehead.move-layers-adjacent-place",
+	"compatibleVersion": 45,
+	"commands": [
+		{
+			"script": "action.js",
+			"identifier": "move-top",
+			"handler": "moveTop",
+			"name": "Move Layers to Top",
+			"shortcut": "control ↑"
+		},{
+			"script": "action.js",
+			"identifier": "move-right",
+			"handler": "moveRight",
+			"name": "Move Layers to Right",
+			"shortcut": "control →"
+		},{
+			"script": "action.js",
+			"identifier": "move-bottom",
+			"handler": "moveBottom",
+			"name": "Move Layers to Bottom",
+			"shortcut": "control ↓"
+		},{
+			"script": "action.js",
+			"identifier": "move-left",
+			"handler": "moveLeft",
+			"name": "Move Layers to Left",
+			"shortcut": "control ←"
+		},{
+			"script": "action.js",
+			"identifier": "duplicate-top",
+			"handler": "duplicateTop",
+			"name": "Duplicate Layers to Top",
+			"shortcut": "control option ↑"
+		},{
+			"script": "action.js",
+			"identifier": "duplicate-right",
+			"handler": "duplicateRight",
+			"name": "Duplicate Layers to Right",
+			"shortcut": "control option →"
+		},{
+			"script": "action.js",
+			"identifier": "duplicate-bottom",
+			"handler": "duplicateBottom",
+			"name": "Duplicate Layers to Bottom",
+			"shortcut": "control option ↓"
+		},{
+			"script": "action.js",
+			"identifier": "duplicate-left",
+			"handler": "duplicateLeft",
+			"name": "Duplicate Layers to Left",
+			"shortcut": "control option ←"
+		},{
+			"script": "action.js",
+			"identifier": "open-setting",
+			"handler": "setting",
+			"name": "Setting...",
+			"shortcut": "control ,"
+		}
+	],
+	"menu": {
+		"title": "Move Layers to Adjacent Place",
+		"items": [
+			"move-top",
+			"move-right",
+			"move-bottom",
+			"move-left",
+			"duplicate-top",
+			"duplicate-right",
+			"duplicate-bottom",
+			"duplicate-left",
+			"open-setting"
+		]
+	}
+}
