@@ -1,4 +1,6 @@
 # Move Layers to Adjacent Sketch Plugin
+<img src="https://github.com/onthehead/sketch-plugin-move-layers-to-adjacent-place/blob/master/img/fig-01.png" alt="Move Layers to Adjacent"/>
+
 This plugin move / duplicate layers to adjacent place (top / right / bottom / left)..
 
 <img src="https://github.com/onthehead/sketch-plugin-move-layers-to-adjacent-place/blob/master/img/preview.gif" alt="Preview Move Layers to Adjacent"/>
